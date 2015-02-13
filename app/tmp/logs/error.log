@@ -1,0 +1,632 @@
+2015-02-11 16:31:21 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /new-cake/users
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-11 17:17:44 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-11 17:18:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/new-cake/app/Controller/AdminController.php, line 13]
+2015-02-11 17:18:04 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/new-ca...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/new-ca...', 13, Array)
+#2 /var/www/new-cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/new-ca...', 13, Array)
+#3 /var/www/new-cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-11 17:33:32 Error: [MissingActionException] Action AdminController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'admin',
+)
+Request URL: /new-cake/admin/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 17:34:14 Error: [MissingActionException] Action AdminController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'index',
+)
+Request URL: /new-cake/admin/index
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 17:34:19 Error: [MissingActionException] Action AdminController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'index',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 17:34:30 Error: [MissingActionException] Action AdminController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'admin',
+)
+Request URL: /new-cake/admin/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 17:35:59 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-11 17:36:04 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /new-cake/admin/
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-11 17:58:25 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /new-cake/users/
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-11 17:58:27 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /new-cake/users
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-11 17:58:39 Error: [MissingActionException] Action UsersController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin',
+)
+Request URL: /new-cake/users/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 18:36:57 Error: [MissingActionException] Action AdminController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'index',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 18:42:57 Error: [MissingViewException] View file "Admin/admin_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin/admin_login.ctp',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#4 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-11 18:46:43 Error: [MissingViewException] View file "Admin/admin_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin/admin_login.ctp',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#4 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-11 18:46:45 Error: [MissingViewException] View file "Admin/admin_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin/admin_login.ctp',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#4 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-11 18:51:22 Error: [MissingViewException] View file "Admin/admin_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin/admin_login.ctp',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#4 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-11 18:51:44 Error: [MissingViewException] View file "Admin/Admin/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin/Admin/login.ctp',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName('Admin/login')
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render('Admin/login', NULL)
+#2 /var/www/new-cake/app/Controller/AdminController.php(27): Controller->render('Admin/login')
+#3 [internal function]: AdminController->admin_login()
+#4 /var/www/new-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#5 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#7 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-11 19:06:05 Error: [MissingViewException] View file "Admin/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin/login.ctp',
+)
+Request URL: /new-cake/admin/
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName('login')
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render('login', NULL)
+#2 /var/www/new-cake/app/Controller/AdminController.php(30): Controller->render('login')
+#3 [internal function]: AdminController->admin_login()
+#4 /var/www/new-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#5 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#7 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-11 19:12:26 Error: [MissingViewException] View file "Users/login.php" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.php',
+)
+Request URL: /new-cake/admin/
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName('login')
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render('login', NULL)
+#2 /var/www/new-cake/app/Controller/UsersController.php(23): Controller->render('login')
+#3 [internal function]: UsersController->admin_login()
+#4 /var/www/new-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-11 19:12:37 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/admin/
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-11 19:12:45 Error: [MissingViewException] View file "Users/login.php" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.php',
+)
+Request URL: /new-cake/admin/
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName('login')
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render('login', NULL)
+#2 /var/www/new-cake/app/Controller/UsersController.php(23): Controller->render('login')
+#3 [internal function]: UsersController->admin_login()
+#4 /var/www/new-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-11 19:13:00 Error: [MissingViewException] View file "Users/Admin/login.php" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Admin/login.php',
+)
+Request URL: /new-cake/admin/
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName('Admin/login')
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render('Admin/login', NULL)
+#2 /var/www/new-cake/app/Controller/UsersController.php(23): Controller->render('Admin/login')
+#3 [internal function]: UsersController->admin_login()
+#4 /var/www/new-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-11 19:14:32 Error: [MissingViewException] View file "Users/Admin/login.php" is missing.
+Exception Attributes: array (
+  'file' => 'Users/Admin/login.php',
+)
+Request URL: /new-cake/admin/
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName('Admin/login')
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render('Admin/login', NULL)
+#2 /var/www/new-cake/app/Controller/UsersController.php(24): Controller->render('Admin/login')
+#3 [internal function]: UsersController->admin_login()
+#4 /var/www/new-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-12 10:46:03 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 10:46:14 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 10:46:37 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 10:46:50 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 10:50:33 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/new-cake/app/Controller/UsersController.php, line 34]
+2015-02-12 10:50:33 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/new-ca...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/new-ca...', 34, Array)
+#2 /var/www/new-cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/new-ca...', 34, Array)
+#3 /var/www/new-cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-12 10:51:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 10:51:58 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 10:52:13 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 10:52:15 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 11:00:20 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 11:03:56 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 11:04:21 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 11:06:26 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName('login')
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render('login', NULL)
+#2 /var/www/new-cake/app/Controller/UsersController.php(36): Controller->render('login')
+#3 [internal function]: UsersController->login()
+#4 /var/www/new-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-12 11:06:33 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName('login')
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render('login', NULL)
+#2 /var/www/new-cake/app/Controller/UsersController.php(36): Controller->render('login')
+#3 [internal function]: UsersController->login()
+#4 /var/www/new-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-12 11:06:50 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName('login')
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render('login', NULL)
+#2 /var/www/new-cake/app/Controller/UsersController.php(36): Controller->render('login')
+#3 [internal function]: UsersController->login()
+#4 /var/www/new-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-12 11:06:52 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /new-cake/users/login
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/View/View.php(470): View->_getViewFileName('login')
+#1 /var/www/new-cake/lib/Cake/Controller/Controller.php(959): View->render('login', NULL)
+#2 /var/www/new-cake/app/Controller/UsersController.php(36): Controller->render('login')
+#3 [internal function]: UsersController->login()
+#4 /var/www/new-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /var/www/new-cake/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-12 11:44:01 Error: [MissingControllerException] Controller class ShowsController could not be found.
+Exception Attributes: array (
+  'class' => 'ShowsController',
+  'plugin' => NULL,
+)
+Request URL: /new-cake/shows
+Stack Trace:
+#0 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-12 11:44:06 Error: [CakeException] Authorization adapter "controller" was not found.
+Request URL: /new-cake/
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#1 /var/www/new-cake/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#2 [internal function]: AuthComponent->startup(Object(PagesController))
+#3 /var/www/new-cake/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /var/www/new-cake/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /var/www/new-cake/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-12 11:44:10 Error: [CakeException] Authorization adapter "controller" was not found.
+Request URL: /new-cake/users/
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#1 /var/www/new-cake/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 /var/www/new-cake/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /var/www/new-cake/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /var/www/new-cake/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-12 11:44:13 Error: [CakeException] Authorization adapter "controller" was not found.
+Request URL: /new-cake/users/logout
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#1 /var/www/new-cake/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 /var/www/new-cake/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /var/www/new-cake/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /var/www/new-cake/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-12 11:46:24 Error: [CakeException] Authorization adapter "controller" was not found.
+Request URL: /new-cake/logout
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#1 /var/www/new-cake/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 /var/www/new-cake/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /var/www/new-cake/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /var/www/new-cake/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-12 11:51:33 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /new-cake/users/add
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 11:58:43 Error: [MissingActionException] Action UsersController::admin_admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_admin_login',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 11:58:47 Error: [MissingActionException] Action UsersController::admin_admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_admin_login',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 12:01:37 Error: [MissingActionException] Action UsersController::admin_admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_admin_login',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 12:01:39 Error: [MissingActionException] Action UsersController::admin_admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_admin_login',
+)
+Request URL: /new-cake/admin
+Stack Trace:
+#0 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/new-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-12 12:19:57 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /new-cake/admin/logout
+Stack Trace:
+#0 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-12 12:20:12 Error: [MissingControllerException] Controller class AdminLogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminLogoutController',
+  'plugin' => NULL,
+)
+Request URL: /new-cake/admin/admin_logout
+Stack Trace:
+#0 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-12 12:34:57 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /new-cake/admin/login
+Stack Trace:
+#0 /var/www/new-cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
